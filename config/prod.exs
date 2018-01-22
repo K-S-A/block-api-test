@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :block_api, BlockApi.Endpoint,
   load_from_system_env: true,
-  # http: [port: {:system, "PORT"}],
+  http: [port: {:system, "PORT"}],
   url: [
     scheme: "https",
     host: "block-api-test.herokuapp.com",
